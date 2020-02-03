@@ -12,7 +12,7 @@ import { BooksComponent } from './book/book.component';
 import { AddBookComponent } from './book/addbook.component';
 import { EditBookComponent } from './book/editbook.component';
 import { BookService } from './book/book.service';
-import { AdminPageComponent } from './admin/admin-page.component';
+import { AdminPageComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { AdminPageComponent } from './admin/admin-page.component';
       { path: 'books', component: BooksComponent },
       { path: 'add-book', component: AddBookComponent },
       { path: 'books/edit/:id', component: EditBookComponent },
-      { path: 'admin-page', component: AdminPageComponent }
+      { path: 'auth', component: AdminPageComponent }
     ])
   ],
   providers: [BookService],

@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\src\app\admin\admin-page.component.ts" />
+    <None Remove="ClientApp\src\app\auth\auth.component.ts" />
     <None Remove="ClientApp\src\app\book\addbook.component.ts" />
     <None Remove="ClientApp\src\app\book\book.component.ts" />
     <None Remove="ClientApp\src\app\book\book.service.ts" />
@@ -49,7 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\src\app\admin\admin-page.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\auth.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\book\addbook.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\book\book.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\book\book.ts" />
